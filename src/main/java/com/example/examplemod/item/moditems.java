@@ -12,10 +12,10 @@ public class moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MODID);
     public static final RegistryObject<Item>
-            Zircon = ITEMS.register("zircon", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            Zircon = ITEMS.register("zircon", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Mod_tab)));
 
     public static final RegistryObject<Item>
-            Raw_Zircon = ITEMS.register("raw_zircon", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            Raw_Zircon = ITEMS.register("raw_zircon", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Mod_tab)));
     public static void register(IEventBus eventBus)
     {
         ITEMS.register(eventBus);

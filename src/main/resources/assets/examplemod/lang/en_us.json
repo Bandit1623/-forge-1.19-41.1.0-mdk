@@ -1,4 +1,6 @@
 {
   "item.examplemod.zircon": "Zircon",
-  "item.examplemod.raw_zircon": "Raw zircon"
+  "item.examplemod.raw_zircon": "Raw zircon",
+
+  "itemGroup.modtab": "Mod tab"
 }
