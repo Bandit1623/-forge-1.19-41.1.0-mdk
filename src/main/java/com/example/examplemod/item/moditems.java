@@ -9,8 +9,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class moditems {
-    public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MODID);
+    public static final DeferredRegister<Item>
+            ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ExampleMod.MODID);
     public static final RegistryObject<Item>
             Zircon = ITEMS.register("zircon", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Mod_tab)));
 

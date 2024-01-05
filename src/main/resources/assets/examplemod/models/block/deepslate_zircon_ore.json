@@ -1,0 +1,4 @@
+{
+  "parent": "block/cube_all",
+  "textures": {"all": "examplemod:block/deepslate_zircon_ore"}
+}

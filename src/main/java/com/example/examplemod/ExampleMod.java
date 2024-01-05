@@ -1,5 +1,6 @@
 package com.example.examplemod;
 
+import com.example.examplemod.block.ModBlocks;
 import com.example.examplemod.item.moditems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -42,6 +43,7 @@ public class ExampleMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
